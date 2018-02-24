@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="darkblue">#0e96f9</color>
+    <color name="lightblue">#117cc9</color>
+    <color name="yellow">#ffcb2b</color>
+
+    <color name="swipe1">#0b15dc</color>
+    <color name="swipe2">#11de22</color>
+    <color name="swipe3">#ef2304</color>
+
+    <color name="adot">#ffffff</color>
+    <color name="nadot">#a4aff1</color>
+
+    <color name="aot">#f9fbfc</color>
+
+</resources>

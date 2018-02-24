@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkblue"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.venkat.jobzone.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true">
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/viewpager"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal"
+        android:id="@+id/sliderdots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sliderdots"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:textSize="25dp"
+        android:textColor="@color/yellow"
+        android:text="Job Seeker" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:text="Register Yourself and Find different job posts posted by the reputed Organization" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:textSize="25dp"
+        android:textColor="@color/yellow"
+        android:text="Organization"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:text="Register your Company details and then you may post your job vacancies. Find people with talents as you expect"
+        android:layout_below="@+id/textView9"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

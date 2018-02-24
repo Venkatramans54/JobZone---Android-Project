@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.venkat.jobzone">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".JobloginActivity"
+            android:label="Login" />
+        <activity
+            android:name=".JobseekerActivity"
+            android:label="Job Seeker" />
+        <activity
+            android:name=".OrgloginActivity"
+            android:label="Login" />
+        <activity
+            android:name=".OrganizationActivity"
+            android:label="Organization" />
+        <activity
+            android:name=".JsUpdateProfile"
+            android:label="Profile" />
+        <activity
+            android:name=".OrgPostJobs"
+            android:label="Post Jobs" />
+        <activity
+            android:name=".ApplyForJobs"
+            android:label="Apply Jobs" />
+
+        <activity
+            android:name=".Walkthrough"
+            android:label="Walkthrough"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".JobSeekerSignupActivity"
+            android:label="Sign Up"/>
+
+        <activity
+            android:name=".OrgSignupActivity"
+            android:label="Sign Up" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFD5D9DA">
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="Profile Updation"
+        android:layout_alignParentTop="true"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            app:cardCornerRadius="5dp"
+            android:id="@+id/namecard"
+            android:layout_below="@id/textView11"
+            android:elevation="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/jseekername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:layout_marginLeft="25dp"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="5dp"
+            android:layout_below="@id/namecard"
+            android:id="@+id/degreecard"
+            android:elevation="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Degree"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/jseekerdegree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/jseekername"
+        android:layout_alignStart="@+id/jseekername"
+        android:layout_below="@+id/jseekername"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:layout_marginLeft="25dp"
+        android:inputType="textPersonName" />
+        </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        app:cardCornerRadius="5dp"
+        android:layout_below="@id/degreecard"
+        android:id="@+id/dobcard"
+        android:elevation="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DOB"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="25dp"/>
+    <EditText
+        android:id="@+id/jseekerdob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/jseekerdegree"
+        android:layout_alignStart="@+id/jseekerdegree"
+        android:layout_below="@+id/jseekerdegree"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:layout_marginLeft="25dp"
+        android:inputType="textPersonName" />
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="5dp"
+            android:id="@+id/expcard"
+            android:layout_below="@id/dobcard"
+            android:elevation="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Experience"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/jseekerexp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/jseekerdob"
+        android:layout_alignStart="@+id/jseekerdob"
+        android:layout_below="@+id/jseekerdob"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+        </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:cardCornerRadius="5dp"
+        android:id="@+id/numbercard"
+        android:layout_below="@id/expcard"
+        android:elevation="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Number"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="25dp"/>
+    <EditText
+        android:id="@+id/jseekerno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/jseekerexp"
+        android:layout_alignStart="@+id/jseekerexp"
+        android:layout_below="@+id/jseekerexp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:layout_marginLeft="25dp"
+        android:inputType="phone" />
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="5dp"
+            android:id="@+id/emailcard"
+            android:layout_below="@id/numbercard"
+            android:elevation="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email id"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textSize="25dp"/>
+    <EditText
+        android:id="@+id/jseekeremail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/jseekerno"
+        android:layout_alignStart="@+id/jseekerno"
+        android:layout_below="@+id/jseekerno"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:layout_marginLeft="25dp"
+        android:inputType="textEmailAddress" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="5dp"
+            android:layout_below="@id/emailcard"
+            android:id="@+id/addresscard"
+            android:elevation="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textSize="25dp"/>
+
+        <EditText
+            android:id="@+id/jseekeraddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/jseekeremail"
+            android:layout_alignStart="@+id/jseekeremail"
+            android:layout_below="@+id/jseekeremail"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:layout_marginLeft="25dp"
+            android:inputType="text|textPostalAddress" />
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:id="@+id/buttonupdateprofile"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:layout_below="@+id/addresscard"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="43dp"
+            android:ems="10"
+            android:text="Update Profile" />
+
+
+</RelativeLayout>
+
+</ScrollView>

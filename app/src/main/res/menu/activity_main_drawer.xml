@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_walkthrough"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Walkthrough" />
+        <item
+            android:id="@+id/nav_jobseeker"
+            android:icon="@drawable/ic_people"
+            android:title="Job Seeker" />
+        <item
+            android:id="@+id/nav_organization"
+            android:icon="@drawable/ic_company"
+            android:title="Organization" />
+
+    </group>
+
+    <item android:title="Application">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_close"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>
